@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <table class="table">
+      <thead class="thead-inverse">
+        <tr>
+          <th>Tienda</th>
+          <th>Codigo</th>
+          <th>Numero comentarios</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let tienda of tiendaservice.tiendas">
+          <td>{{ tienda.titulo }}</td>
+          <td>{{ tienda.id }}</td>
+          <td>{{ tienda.conteo }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+

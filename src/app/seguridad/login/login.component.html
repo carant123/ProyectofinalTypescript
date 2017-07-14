@@ -1,0 +1,15 @@
+
+<div class="zonaLogin">
+  <form (ngSubmit)="loguear()" #f="ngForm">
+    <h1 class="display-5 text-center">Login</h1>
+    <div class="form-group">
+       <input type="email" name="correo" ngModel email required placeholder="Ingrese su correo" class="form-control">
+    </div>
+    <div class="form-group">
+       <input type="password" name="contrasena" ngModel required placeholder="Ingrese su contraseña" class="form-control">
+    </div>
+    <div class="form-group">
+       <button type="submit" class="btn btn-danger btn-block" [disabled]="!f.valid">Ingresar</button>
+    </div>
+  </form>
+</div>

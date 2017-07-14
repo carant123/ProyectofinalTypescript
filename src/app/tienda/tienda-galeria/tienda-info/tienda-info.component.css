@@ -1,0 +1,22 @@
+.margint {
+    margin: 5px;
+}
+
+.paddingtopdown {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.height20 {
+    height: auto;
+    overflow: hidden;
+}
+
+.green {
+    background-color: green;
+}
+
+.col-centrada{
+    float: none;
+    margin: 0 auto;
+}
